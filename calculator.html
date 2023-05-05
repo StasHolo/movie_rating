@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script>
+      let number1 = prompt('Введите первое число:')
+      let number2 = prompt('Введите второе число:')
+      let sign = prompt('Введите знак операции(+, -, /, *):')
+      let summ
+      if (sign === '+'){
+        summ = parseInt(number1) + parseInt(number2)
+      }
+      if (sign === '-'){
+        summ = number1-number2
+      }
+      if (sign === '/'){
+        summ = number1/number2
+      }
+      if (sign === '*'){
+        summ = number1*number2
+      }
+      console.log(number1, sign, number2, '=', summ)
+    </script>
+  </head>
+</html>
